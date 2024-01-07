@@ -1,0 +1,37 @@
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    overflow: hidden;
+}
+#game-info {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: rgba(255, 255, 255, 0.7);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#game-info p {
+    margin: 5px 0;
+}
+#nextLevelBtn {
+    background-color: #3498db; /* Blue background */
+    color: #ffffff; /* White text */
+    font-family: 'Press Start 2P', cursive;
+    font-size: 16px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#nextLevelBtn:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+}
